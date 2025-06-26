@@ -1,0 +1,36 @@
+# davlatlar = ["O'zbekiston", 'AQSh', 'Braziliya', 'Rassiya', 'Qozog\'iston', 'Xitoy', 'Yaponiya']
+# print("Davlatlar soni: ", len(davlatlar))
+# print("sorted() qaytargan royxat: ", sorted(davlatlar))
+# print("Asl ro'yxat: ", davlatlar)
+# print("sorted(,reverse): ", sorted(davlatlar, reverse=True))
+# print("asli :", davlatlar)
+# davlatlar.reverse()
+# print(davlatlar)
+# davlatlar.sort()
+# print(davlatlar)
+# davlatlar.sort(reverse=True)
+# print(davlatlar)
+
+# sonlar = list(range(120,1200,2))
+# smax = max(sonlar)
+# smin = min(sonlar)
+# print(smax - smin)
+# print(sum(sonlar))
+# print(len(sonlar))
+# print(sonlar[:20])
+# print(sonlar[60:80])
+# print(sonlar[520:])
+
+taomlar = ['manti', 'tokoshi', 'osh', 'besh barmoq', 'mastava']
+nonushta = taomlar[:]
+nonushta.remove('manti')
+nonushta.remove("osh")
+nonushta.remove('mastava')
+nonushta.append('sut')
+nonushta.append('saryog\'')
+print(taomlar)
+print(nonushta)
+nonushta = tuple(nonushta)
+nonushta = list(nonushta)
+nonushta[0] = "qaymoq va non"
+print(nonushta)
